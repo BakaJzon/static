@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<pagescount>
+	<html_total>9</html_total>
+	<html_done>9</html_done>
+	<images>115</images>
+	<script>7</script>
+	<css>6</css>
+	<pdf/>
+	<documents/>
+	<excel/>
+	<powerpoint/>
+	<flash/>
+	<audios/>
+	<videos/>
+	<xml/>
+	<json/>
+	<txt/>
+	<autocad/>
+	<fonts>1</fonts>
+	<scraping_reload>1</scraping_reload>
+	<is_pretty_url>false</is_pretty_url>
+	<is_ebn>false</is_ebn>
+	<email>bakajzon@163.com</email>
+	<theme_name>WmdTheme158093</theme_name>
+	<server_url_front_page>https://www.waybackmachinedownloader.com/scraping/files/demo/gochiusa.com_bakajzon_163.com_wv2u1831hv/</server_url_front_page>
+	<no_www_url>gochiusa.com</no_www_url>
+	<hosted_domain/>
+	<original_archive_url>https://web.archive.org/web/20211225035551/https://gochiusa.com/10th/xmas/</original_archive_url>
+	<final_archive_url>https://web.archive.org/web/20211225022711/https://gochiusa.com/10th/xmas/</final_archive_url>
+	<front_page_code_date>20211225022711</front_page_code_date>
+	<total_urls_from_api/>
+	<max_reached_live>false</max_reached_live>
+	<scrape_other_captures>false</scrape_other_captures>
+	<total_size>14272</total_size>
+</pagescount>
