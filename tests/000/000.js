@@ -1,0 +1,1 @@
+document.getElementById('test-bar').textContent='Correct URL!'
