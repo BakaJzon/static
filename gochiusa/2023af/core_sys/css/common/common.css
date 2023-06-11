@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/* ========================================
+サイトごとの全体設定
+======================================== */
+
+/* 基本のフォント設定 */
+body {
+  color: #fff;
+  font-family: YakuHanJPs, "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+/*
+  font-family: YakuHanMPs, "Noto Serif JP", "ヒラギノ明朝 ProN W3", "游明朝 Medium", "Yu Mincho Medium", "游明朝", "Yu Mincho", YuMincho, serif;
+*/
+  font-size:max(1.8vw,1.6rem);
+  line-height: 1.4;
+	background: #000;
+}
+
+
+/* リンク */
+a {
+  color: #1f8cd3;
+}
+
+/* 訪問済みリンクカラー */
+a:visited {
+  color: #643f77;
+}
+
+/* ホバー効果 */
+a,
+button {
+  transition: .5s;
+}
+
+a:hover,
+button:hover {
+  opacity: .6;
+}
+
+/* 選択時カラー */
+::-moz-selection {
+  background-color: #b3d4fc;
+  color: #000;
+}
+
+::selection {
+  background-color: #b3d4fc;
+  color: #000;
+}
+
+/* ========================================
+foundation
+リセットのためのCSSの追加
+======================================== */
+
+/* 1rem = 10pxにする */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-variant-ligatures: none;
+  word-break: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0 .4em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.87em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.12em;
+}
+
+h5, h6 {
+  font-size: 1em;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+iframe {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  vertical-align: top;
+}
+
+th {
+  text-align: left;
+  padding: 0;
+}
+
+td {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ol {
+  padding-left: 1.2em;
+}
+
+p,
+ul,
+ol,
+dl {
+  margin: 0 0 1em;
+}
+
+small {
+  font-size: inherit;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  outline: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+/* リマーケティングタグの隙間回避 */
+iframe[name='google_conversion_frame']{
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/*
+     FILE ARCHIVED ON 23:45:17 Mar 31, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:54:45 Jun 10, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 108.277
+  exclusion.robots: 0.139
+  exclusion.robots.policy: 0.128
+  cdx.remote: 0.061
+  esindex: 0.01
+  LoadShardBlock: 79.217 (3)
+  PetaboxLoader3.datanode: 112.423 (4)
+  load_resource: 134.122
+  PetaboxLoader3.resolve: 54.01
+*/

@@ -1,0 +1,82 @@
+/* フロート対策
+-------------------------------------
+エリア内にfloat要素しか含まない場合に
+背景が表示されない問題への対策 */
+
+/* IE6/7対応 */
+#contents,
+#contents_main,
+#ext_area_01,
+#ext_area_02,
+.header_sa01,
+.header_sa02,
+.header_sa03,
+.header_sa04,
+.main_sa01,
+.main_sa02,
+.main_sa03,
+.main_sa04,
+.main_sa05,
+.main_sa06,
+.main_sa07,
+.main_sa08,
+.footer_sa01,
+.footer_sa02,
+.footer_sa03,
+.ti_b,
+#news_ct_h {
+	min-height: 1em;
+	_height: 1px;
+	_overflow: visible;
+	}
+
+/* AFTER要素 */
+#contents:after,
+#contents_main:after,
+#ext_area_01:after,
+#ext_area_02:after,
+.header_sa01:after,
+.header_sa02:after,
+.header_sa03:after,
+.header_sa04:after,
+.main_sa01:after,
+.main_sa02:after,
+.main_sa03:after,
+.main_sa04:after,
+.main_sa05:after,
+.main_sa06:after,
+.main_sa07:after,
+.main_sa08:after,
+.footer_sa01:after,
+.footer_sa02:after,
+.footer_sa03:after,
+.ti_b:after,
+#news_ct_h:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+	}
+
+
+/*
+     FILE ARCHIVED ON 07:47:59 Apr 01, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:53:30 Jun 10, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1509.371
+  exclusion.robots: 0.252
+  exclusion.robots.policy: 0.237
+  RedisCDXSource: 0.99
+  esindex: 0.013
+  LoadShardBlock: 1486.774 (3)
+  PetaboxLoader3.datanode: 1548.581 (5)
+  load_resource: 606.169 (2)
+  PetaboxLoader3.resolve: 523.568 (2)
+*/

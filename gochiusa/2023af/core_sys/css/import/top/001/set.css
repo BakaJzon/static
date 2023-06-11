@@ -1,0 +1,30 @@
+/* ==========共通指定========== */
+/* 全体基本指定(共通固定) */
+@import url("../../../common/common.css");
+@import url("../../../common/font.css");
+@import url("../../../common/float_fix.css");
+@import url("../../../user/user.css");
+
+/* スタイルパーツ呼び出し(共通固定) */
+@import url("../../common/style_parts.css");
+
+/*
+     FILE ARCHIVED ON 23:45:17 Mar 31, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:51:23 Jun 10, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 856.677
+  exclusion.robots: 0.121
+  exclusion.robots.policy: 0.114
+  RedisCDXSource: 0.672
+  esindex: 0.006
+  LoadShardBlock: 829.631 (3)
+  PetaboxLoader3.datanode: 844.73 (4)
+  load_resource: 103.123
+  PetaboxLoader3.resolve: 67.291
+*/
